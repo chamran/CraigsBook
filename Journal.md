@@ -17,12 +17,13 @@ Tasks Completed:
  * Began listing technologies and how they fit in this project
  
 I have fallen a little behind during the start of the semester, but I am making progress day by day. I have chosen a project goal, and am anxious about getting started.
+
+### Week 2
+
+2/2/2016
+
+Tasks completed:
+
+ * Activity 1-3
  
-**************EXAMPLE******************
-I also started looking at a few different services that could be used:
-
-* Here's the home page for the google maps web services: https://developers.google.com/maps/web-services/overview?hl=en This can be used to display a map of the trail location.
-* A service to identify the current snow depth, most recent snowfal, etc.  Looks like this data is available: http://www.weather.gov/nerfc/snow, but I did not quickly find a service that returns the data. Will keep searching. Scraping the details from something like this, may work as well: http://www.nohrsc.noaa.gov/nsa/reports.html?region=National&var=snowdepth&dy=2016&dm=1&dd=24&units=e&sort=value&filter=0
-* A service for current weather conditions migth be helpful as well. http://openweathermap.org looks promising and they have a free tier. There's also some integration with google maps, so I think I may be able to project weather data over the google map?
-***************************************
-
+I still trying to get the hang of using repositories.  I am falling a little behind, but, I plan on getting everything caught this week.

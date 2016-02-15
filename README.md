@@ -1,15 +1,15 @@
-# Chamran Yim Individual Project
+# Ran Yim Individual Project 
 
 ### Problem Statement
 
 School text books is an expensive part of being a student. Everybody loves to save money, so I will build a website that will help students do just that. My website will allow students to select the school they are enrolled in, which will give them the oppurtunity to connect with others students who are willing to sell their used textbooks directly to them. By bypassing a third party, more money will end up in students' hands.
 
 Screenshots from CraigsBook.com:
- *********EXAMPLE**********
-![Trail Description](images/MirrorLakeTrailExample.png)
 
-![Trail Report](images/MadisonAreaExample.png)
- **************************
+![Trail Description](DesignDocuments\wireframes/activitypage.png)
+
+![Trail Report](DesignDocuments\wireframes/homepage.png)
+
 
 ### Project Technologies/Techniques 
 
