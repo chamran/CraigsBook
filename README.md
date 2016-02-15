@@ -21,10 +21,6 @@ Screenshots from CraigsBook.com:
   * Store users and roles
   * Store textbook information
 * Web Services or APIs
- *********EXAMPLE**********
-  * Google Maps for trail locations
-  * Weather for weather conditions at a trail location
- **************************
 * Bootstrap
 * Logging
   * Configurable logging using Log4J. In production, only errors will normally be logged, but logging at a debug level can be turned on to facilitate trouble-shooting. 
