@@ -1,0 +1,512 @@
+before try
+[]
+before try
+before return
+[]
+[[Ljava.lang.Object;@126253fd, [Ljava.lang.Object;@57db2b13]
+2
+Added user: User{id=3, name= ran, password=q1w2e3r4} with id of: 3
+3
+3
+3
+Rows updated: 1
+Rows updated: 1
+Rows updated: 1
+Rows updated: 1
+Rows updated: 1
+[[Ljava.lang.Object;@66ea810, [Ljava.lang.Object;@6cd24612, [Ljava.lang.Object;@5dafbe45]
+Rows updated: 1
+Rows updated: 1
+[Ljava.lang.Object;@1f9e9475
+Rows updated: 1
+Rows updated: 1
+Rows updated: 1
+Rows updated: 1
+[[Ljava.lang.Object;@66ea810, [Ljava.lang.Object;@6cd24612, [Ljava.lang.Object;@5dafbe45]
+Rows updated: 1
+[[Ljava.lang.Object;@66ea810, [Ljava.lang.Object;@6cd24612, [Ljava.lang.Object;@5dafbe45]
+Rows updated: 1
+[[Ljava.lang.Object;@66ea810, [Ljava.lang.Object;@6cd24612, [Ljava.lang.Object;@5dafbe45]
+Rows updated: 1
+[[Ljava.lang.Object;@66ea810, [Ljava.lang.Object;@6cd24612, [Ljava.lang.Object;@5dafbe45]
+user
+Rows updated: 1
+[[Ljava.lang.Object;@66ea810, [Ljava.lang.Object;@6cd24612, [Ljava.lang.Object;@5dafbe45]
+Rows updated: 1
+[[Ljava.lang.Object;@66ea810, [Ljava.lang.Object;@6cd24612, [Ljava.lang.Object;@5dafbe45]
+user
+Rows updated: 1
+[[Ljava.lang.Object;@66ea810, [Ljava.lang.Object;@6cd24612, [Ljava.lang.Object;@5dafbe45]
+user
+Rows updated: 1
+[[Ljava.lang.Object;@66ea810, [Ljava.lang.Object;@6cd24612, [Ljava.lang.Object;@5dafbe45]
+user
+hi
+hi
+hi
+Rows updated: 1
+[[Ljava.lang.Object;@66ea810, [Ljava.lang.Object;@6cd24612, [Ljava.lang.Object;@5dafbe45]
+user
+First Name: rany
+First Name: ranyyy
+First Name: ran
+Rows updated: 1
+[[Ljava.lang.Object;@66ea810, [Ljava.lang.Object;@6cd24612, [Ljava.lang.Object;@5dafbe45]
+user
+Rows updated: 1
+[[Ljava.lang.Object;@66ea810, [Ljava.lang.Object;@6cd24612, [Ljava.lang.Object;@5dafbe45]
+Rows found: [[Ljava.lang.Object;@210ab13f, [Ljava.lang.Object;@20b2475a, [Ljava.lang.Object;@7857fe2]
+3
+Rows updated: 1
+Rows found: [[Ljava.lang.Object;@626abbd0, [Ljava.lang.Object;@169bb4dd, [Ljava.lang.Object;@1f9e9475]
+[[Ljava.lang.Object;@626abbd0, [Ljava.lang.Object;@169bb4dd, [Ljava.lang.Object;@1f9e9475]
+Rows updated: 1
+Rows found: [User{id=1, name= rany, password=Q1w2e3r4}, User{id=2, name= ranyyy, password=Q1w2e3r4}, User{id=3, name= ran, password=q1w2e3r4}]
+[User{id=1, name= rany, password=Q1w2e3r4}, User{id=2, name= ranyyy, password=Q1w2e3r4}, User{id=3, name= ran, password=q1w2e3r4}]
+user
+Rows updated: 1
+[[Ljava.lang.Object;@66ea810, [Ljava.lang.Object;@6cd24612, [Ljava.lang.Object;@5dafbe45]
+Rows updated: 1
+[User{id=1, name= rany, password=Q1w2e3r4}, User{id=2, name= ranyyy, password=Q1w2e3r4}, User{id=3, name= ran, password=q1w2e3r4}]
+user
+3
+beggining
+transaction
+3
+beggining
+transaction
+Rows found: 
+3
+3
+Rows found: 
+3
+Rows updated: 1
+Rows found: 
+[User{id=1, name= rany, password=Q1w2e3r4}, User{id=2, name= ranyyy, password=Q1w2e3r4}, User{id=3, name= ran, password=q1w2e3r4}]
+user
+Rows updated: 1
+Rows found: 
+[User{id=1, name= rany, password=Q1w2e3r4}, User{id=2, name= ranyyy, password=Q1w2e3r4}, User{id=3, name= ran, password=q1w2e3r4}]
+user
+Rows found: 3
+3
+Logging Provider: org.jboss.logging.Log4jLoggerProvider
+Adding type registration boolean -> org.hibernate.type.BooleanType@50675690
+Adding type registration boolean -> org.hibernate.type.BooleanType@50675690
+Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@50675690
+Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@22a71081
+Adding type registration true_false -> org.hibernate.type.TrueFalseType@c39f790
+Adding type registration yes_no -> org.hibernate.type.YesNoType@5f150435
+Adding type registration byte -> org.hibernate.type.ByteType@73035e27
+Adding type registration byte -> org.hibernate.type.ByteType@73035e27
+Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@73035e27
+Adding type registration character -> org.hibernate.type.CharacterType@77f03bb1
+Adding type registration char -> org.hibernate.type.CharacterType@77f03bb1
+Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@77f03bb1
+Adding type registration short -> org.hibernate.type.ShortType@4b6995df
+Adding type registration short -> org.hibernate.type.ShortType@4b6995df
+Adding type registration java.lang.Short -> org.hibernate.type.ShortType@4b6995df
+Adding type registration integer -> org.hibernate.type.IntegerType@445b84c0
+Adding type registration int -> org.hibernate.type.IntegerType@445b84c0
+Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@445b84c0
+Adding type registration long -> org.hibernate.type.LongType@34033bd0
+Adding type registration long -> org.hibernate.type.LongType@34033bd0
+Adding type registration java.lang.Long -> org.hibernate.type.LongType@34033bd0
+Adding type registration float -> org.hibernate.type.FloatType@2aafb23c
+Adding type registration float -> org.hibernate.type.FloatType@2aafb23c
+Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2aafb23c
+Adding type registration double -> org.hibernate.type.DoubleType@28864e92
+Adding type registration double -> org.hibernate.type.DoubleType@28864e92
+Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@28864e92
+Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@649d209a
+Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@649d209a
+Adding type registration big_integer -> org.hibernate.type.BigIntegerType@2a18f23c
+Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@2a18f23c
+Adding type registration string -> org.hibernate.type.StringType@1b40d5f0
+Adding type registration java.lang.String -> org.hibernate.type.StringType@1b40d5f0
+Adding type registration nstring -> org.hibernate.type.StringNVarcharType@71c7db30
+Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@1fbc7afb
+Adding type registration url -> org.hibernate.type.UrlType@7e0babb1
+Adding type registration java.net.URL -> org.hibernate.type.UrlType@7e0babb1
+Adding type registration date -> org.hibernate.type.DateType@35bbe5e8
+Adding type registration java.sql.Date -> org.hibernate.type.DateType@35bbe5e8
+Adding type registration time -> org.hibernate.type.TimeType@129a8472
+Adding type registration java.sql.Time -> org.hibernate.type.TimeType@129a8472
+Adding type registration timestamp -> org.hibernate.type.TimestampType@e580929
+Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@e580929
+Adding type registration java.util.Date -> org.hibernate.type.TimestampType@e580929
+Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@4c203ea1
+Adding type registration calendar -> org.hibernate.type.CalendarType@7c30a502
+Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@7c30a502
+Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@7c30a502
+Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@43a25848
+Adding type registration locale -> org.hibernate.type.LocaleType@1e643faf
+Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1e643faf
+Adding type registration currency -> org.hibernate.type.CurrencyType@880ec60
+Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@880ec60
+Adding type registration timezone -> org.hibernate.type.TimeZoneType@511baa65
+Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@511baa65
+Adding type registration class -> org.hibernate.type.ClassType@19dfb72a
+Adding type registration java.lang.Class -> org.hibernate.type.ClassType@19dfb72a
+Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@2d6e8792
+Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@2d6e8792
+Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@506e6d5e
+Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@6442b0a6
+Adding type registration binary -> org.hibernate.type.BinaryType@2f7a2457
+Adding type registration byte[] -> org.hibernate.type.BinaryType@2f7a2457
+Adding type registration [B -> org.hibernate.type.BinaryType@2f7a2457
+Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@6cd8737
+Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@6cd8737
+Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@6cd8737
+Adding type registration image -> org.hibernate.type.ImageType@1a407d53
+Adding type registration characters -> org.hibernate.type.CharArrayType@668bc3d5
+Adding type registration char[] -> org.hibernate.type.CharArrayType@668bc3d5
+Adding type registration [C -> org.hibernate.type.CharArrayType@668bc3d5
+Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@6b2fad11
+Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@6b2fad11
+Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@6b2fad11
+Adding type registration text -> org.hibernate.type.TextType@dfd3711
+Adding type registration ntext -> org.hibernate.type.NTextType@64616ca2
+Adding type registration blob -> org.hibernate.type.BlobType@90f6bfd
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@90f6bfd
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@6b143ee9
+Adding type registration clob -> org.hibernate.type.ClobType@234bef66
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@234bef66
+Adding type registration nclob -> org.hibernate.type.NClobType@3c09711b
+Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@3c09711b
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4590c9c3
+Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6574b225
+Adding type registration serializable -> org.hibernate.type.SerializableType@6ea12c19
+Adding type registration object -> org.hibernate.type.ObjectType@5ae9a829
+Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@5ae9a829
+Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7ac7a4e4
+Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@6d78f375
+Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@50c87b21
+Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@5f375618
+Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1810399e
+Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@32d992b2
+Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@215be6bb
+Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@4439f31e
+HCANN000001: Hibernate Commons Annotations {4.0.2.Final}
+HHH000412: Hibernate Core {4.2.2.Final}
+HHH000206: hibernate.properties not found
+HHH000021: Bytecode provider name : javassist
+Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+HHH000043: Configuring from resource: /hibernate.cfg.xml
+HHH000040: Configuration resource: /hibernate.cfg.xml
+Resolving XML entity -//Hibernate/Hibernate Configuration DTD//EN : http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd
+Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+dialect=org.hibernate.dialect.MySQL5Dialect
+connection.url=jdbc:mysql://localhost:3306/booktag
+connection.driver_class=com.mysql.jdbc.Driver
+connection.username=student
+connection.password=student
+Session-factory config [null] named resource [User.hbm.xml] for mapping
+HHH000221: Reading mappings from resource: User.hbm.xml
+Resolving XML entity -//Hibernate/Hibernate Mapping DTD//EN : http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd
+Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd]
+Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+Located [http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd] in classpath
+Session-factory config [null] named class [entity.User] for mapping
+HHH000041: Configured SessionFactory: null
+Properties: {hibernate.connection.password=student, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_66\jre\bin, java.vm.version=25.66-b18, hibernate.connection.username=student, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, idea.launcher.port=7533, user.script=, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\Student\IdeaProjects\CraigsBook, java.runtime.version=1.8.0_66-b18, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_66\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\Student\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk1.8.0_66\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Ruby193\bin;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, connection.password=student, user.home=C:\Users\Student, user.timezone=America/Chicago, connection.username=student, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=UTF-8, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\bin, java.specification.version=1.8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, java.class.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\idea_rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\rt.jar;C:\Users\Student\IdeaProjects\CraigsBook\out\test\CraigsBook;C:\Users\Student\IdeaProjects\CraigsBook\out\production\CraigsBook;C:\tomEE\lib\javaee-api-6.0-6.jar;C:\tomEE\lib\jsp-api.jar;C:\tomEE\lib\servlet-api.jar;C:\Users\Student\Downloads\geronimo-osgi-locator-1.0.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\junit-4.12.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\junit.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\hamcrest-core-1.3.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\log4j.jar;C:\Users\Student\.IntelliJIdea15\config\jdbc-drivers\mysql-connector-java-5.1.35-bin.jar;C:\Users\Student\IdeaProjects\hibernate\lib\jboss-transaction-api_1.1_spec-1.0.1.Final.jar;C:\Users\Student\IdeaProjects\hibernate\lib\jboss-logging-3.1.0.GA.jar;C:\Users\Student\IdeaProjects\hibernate\lib\javassist-3.15.0-GA.jar;C:\Users\Student\IdeaProjects\hibernate\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\Users\Student\IdeaProjects\hibernate\lib\hibernate-core-4.2.2.Final.jar;C:\Users\Student\IdeaProjects\hibernate\lib\hibernate-commons-annotations-4.0.2.Final.jar;C:\Users\Student\IdeaProjects\hibernate\lib\dom4j-1.6.1.jar;C:\Users\Student\IdeaProjects\hibernate\lib\antlr-2.7.7.jar, user.name=Student, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.version=1.8, sun.java.command=com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 persistence.UserDaoWithHibernateTest,testGetAllUsers, java.home=C:\Program Files\Java\jdk1.8.0_66\jre, sun.arch.data.model=64, hibernate.connection.url=jdbc:mysql://localhost:3306/booktag, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, user.language=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_66, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_66\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_66\jre\classes, idea.junit.sm_runner=, java.vendor=Oracle Corporation, connection.driver_class=com.mysql.jdbc.Driver, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, connection.url=jdbc:mysql://localhost:3306/booktag, dialect=org.hibernate.dialect.MySQL5Dialect, sun.cpu.isalist=amd64}
+Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+Preparing to build session factory with filters : {}
+Initializing service [role=org.hibernate.engine.jdbc.spi.JdbcServices]
+Initializing service [role=org.hibernate.service.jdbc.connections.spi.ConnectionProvider]
+HHH000402: Using Hibernate built-in connection pool (not for production use!)
+HHH000115: Hibernate connection pool size: 20
+HHH000006: Autocommit mode: false
+HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/booktag]
+HHH000046: Connection properties: {user=student, password=student}
+Initializing service [role=org.hibernate.service.jdbc.dialect.spi.DialectFactory]
+Initializing service [role=org.hibernate.service.jdbc.dialect.spi.DialectResolver]
+Total checked-out connections: 0
+Opening new JDBC connection
+Created connection to: jdbc:mysql://localhost:3306/booktag, Isolation Level: 4
+Database ->
+       name : MySQL
+    version : 5.7.10-log
+      major : 5
+      minor : 7
+Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )
+      major : 5
+      minor : 1
+JDBC version : 4.0
+HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Returning connection to pool, pool size: 1
+Starting secondPassCompile() processing
+Processing hbm.xml files
+Mapping class: entity.User -> user
+Mapped property: id -> id
+Mapped property: name -> name
+Mapped property: password -> password
+Process annotated classes
+Processing fk mappings (*ToOne and JoinedSubclass)
+Processing extends queue
+Processing extends queue
+Processing collection mappings
+Processing native query and ResultSetMapping mappings
+Processing association property references
+Creating tables' unique integer identifiers
+Processing foreign key constraints
+Initializing service [role=org.hibernate.service.jta.platform.spi.JtaPlatform]
+Automatic flush during beforeCompletion(): disabled
+Automatic session close at end of transaction: disabled
+JDBC batch size: 15
+JDBC batch updates for versioned data: disabled
+Scrollable result sets: enabled
+Wrap result sets: disabled
+JDBC3 getGeneratedKeys(): enabled
+multi-tenancy strategy : NONE
+Connection release mode: auto
+Initializing service [role=org.hibernate.engine.transaction.spi.TransactionFactory]
+HHH000399: Using default transaction strategy (direct JDBC transactions)
+Interpreting BatchFetchStyle from setting : null
+Using BatchFetchStyle : LEGACY
+Maximum outer join fetch depth: 2
+Default batch fetch size: 1
+Generate SQL with comments: disabled
+Order SQL updates by primary key: disabled
+Order SQL inserts for batching: disabled
+Default null ordering: none
+Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+HHH000397: Using ASTQueryTranslatorFactory
+Query language substitutions: {}
+JPA-QL strict compliance: disabled
+Second-level cache: enabled
+Query cache: disabled
+Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+org.hibernate.cache.internal.NoCachingRegionFactory did not provide constructor accepting java.util.Properties; attempting no-arg constructor.
+Optimize cache for minimal puts: disabled
+Structured second-level cache entries: disabled
+Second-level cache direct-reference entries: disabled
+Statistics: disabled
+Deleted entity synthetic identifier rollback: disabled
+Default entity-mode: pojo
+Named query checking : enabled
+Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+Allow initialization of lazy state outside session : : disabled
+JTA Track by Thread: enabled
+Building session factory
+Initializing service [role=org.hibernate.service.spi.SessionFactoryServiceRegistryFactory]
+Initializing service [role=org.hibernate.engine.spi.CacheImplementor]
+Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@498d318c
+Session factory constructed with filter configurations : {}
+Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=student, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_66\jre\bin, java.vm.version=25.66-b18, hibernate.connection.username=student, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, idea.launcher.port=7533, user.script=, user.country=US, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=Service Pack 1, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\Student\IdeaProjects\CraigsBook, java.runtime.version=1.8.0_66-b18, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_66\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\Student\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 7, sun.jnu.encoding=Cp1252, java.library.path=C:\Program Files\Java\jdk1.8.0_66\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Ruby193\bin;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=6.1, user.home=C:\Users\Student, connection.password=student, user.timezone=America/Chicago, java.awt.printerjob=sun.awt.windows.WPrinterJob, connection.username=student, java.specification.version=1.8, idea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\bin, file.encoding=UTF-8, hibernate.connection.driver_class=com.mysql.jdbc.Driver, user.name=Student, java.class.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\idea_rt.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\plugins\junit\lib\junit-rt.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\rt.jar;C:\Users\Student\IdeaProjects\CraigsBook\out\test\CraigsBook;C:\Users\Student\IdeaProjects\CraigsBook\out\production\CraigsBook;C:\tomEE\lib\javaee-api-6.0-6.jar;C:\tomEE\lib\jsp-api.jar;C:\tomEE\lib\servlet-api.jar;C:\Users\Student\Downloads\geronimo-osgi-locator-1.0.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\junit-4.12.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\junit.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\hamcrest-core-1.3.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 15.0.2\lib\log4j.jar;C:\Users\Student\.IntelliJIdea15\config\jdbc-drivers\mysql-connector-java-5.1.35-bin.jar;C:\Users\Student\IdeaProjects\hibernate\lib\jboss-transaction-api_1.1_spec-1.0.1.Final.jar;C:\Users\Student\IdeaProjects\hibernate\lib\jboss-logging-3.1.0.GA.jar;C:\Users\Student\IdeaProjects\hibernate\lib\javassist-3.15.0-GA.jar;C:\Users\Student\IdeaProjects\hibernate\lib\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\Users\Student\IdeaProjects\hibernate\lib\hibernate-core-4.2.2.Final.jar;C:\Users\Student\IdeaProjects\hibernate\lib\hibernate-commons-annotations-4.0.2.Final.jar;C:\Users\Student\IdeaProjects\hibernate\lib\dom4j-1.6.1.jar;C:\Users\Student\IdeaProjects\hibernate\lib\antlr-2.7.7.jar, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.version=1.8, sun.arch.data.model=64, java.home=C:\Program Files\Java\jdk1.8.0_66\jre, sun.java.command=com.intellij.rt.execution.application.AppMain com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 persistence.UserDaoWithHibernateTest,testGetAllUsers, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.connection.url=jdbc:mysql://localhost:3306/booktag, java.specification.vendor=Oracle Corporation, user.language=en, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_66, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_66\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_66\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_66\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_66\jre\classes, java.vendor=Oracle Corporation, idea.junit.sm_runner=, file.separator=\, connection.driver_class=com.mysql.jdbc.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, connection.url=jdbc:mysql://localhost:3306/booktag, sun.cpu.isalist=amd64, dialect=org.hibernate.dialect.MySQL5Dialect}
+Unable to acquire Bean Validation ValidatorFactory, skipping activation
+Setting dialect [org.hibernate.dialect.MySQL5Dialect]
+Initializing service [role=org.hibernate.persister.spi.PersisterFactory]
+Initializing service [role=org.hibernate.persister.spi.PersisterClassResolver]
+Skipping duplicate registration of path [name], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+Skipping duplicate registration of path [password], existing type = [org.hibernate.type.StringType@1b40d5f0], incoming type = [org.hibernate.type.StringType@1b40d5f0]
+Skipping duplicate registration of path [id], existing type = [org.hibernate.type.IntegerType@445b84c0], incoming type = [org.hibernate.type.IntegerType@445b84c0]
+Static SQL for entity: entity.User
+ Version select: select id from user where id =?
+ Snapshot select: select user_.id, user_.name as name2_0_, user_.password as password3_0_ from user user_ where user_.id=?
+ Insert 0: insert into user (name, password, id) values (?, ?, ?)
+ Update 0: update user set name=?, password=? where id=?
+ Delete 0: delete from user where id=?
+ Identity insert: insert into user (name, password) values (?, ?)
+Static select for entity entity.User [NONE]: select user0_.id as id1_0_0_, user0_.name as name2_0_0_, user0_.password as password3_0_0_ from user user0_ where user0_.id=?
+Static select for entity entity.User [READ]: select user0_.id as id1_0_0_, user0_.name as name2_0_0_, user0_.password as password3_0_0_ from user user0_ where user0_.id=?
+Static select for entity entity.User [UPGRADE]: select user0_.id as id1_0_0_, user0_.name as name2_0_0_, user0_.password as password3_0_0_ from user user0_ where user0_.id=? for update
+Static select for entity entity.User [UPGRADE_NOWAIT]: select user0_.id as id1_0_0_, user0_.name as name2_0_0_, user0_.password as password3_0_0_ from user user0_ where user0_.id=? for update
+Static select for entity entity.User [FORCE]: select user0_.id as id1_0_0_, user0_.name as name2_0_0_, user0_.password as password3_0_0_ from user user0_ where user0_.id=? for update
+Static select for entity entity.User [PESSIMISTIC_READ]: select user0_.id as id1_0_0_, user0_.name as name2_0_0_, user0_.password as password3_0_0_ from user user0_ where user0_.id=? lock in share mode
+Static select for entity entity.User [PESSIMISTIC_WRITE]: select user0_.id as id1_0_0_, user0_.name as name2_0_0_, user0_.password as password3_0_0_ from user user0_ where user0_.id=? for update
+Static select for entity entity.User [PESSIMISTIC_FORCE_INCREMENT]: select user0_.id as id1_0_0_, user0_.name as name2_0_0_, user0_.password as password3_0_0_ from user user0_ where user0_.id=? for update
+Static select for entity entity.User [OPTIMISTIC]: select user0_.id as id1_0_0_, user0_.name as name2_0_0_, user0_.password as password3_0_0_ from user user0_ where user0_.id=?
+Static select for entity entity.User [OPTIMISTIC_FORCE_INCREMENT]: select user0_.id as id1_0_0_, user0_.name as name2_0_0_, user0_.password as password3_0_0_ from user user0_ where user0_.id=?
+Static select for action ACTION_MERGE on entity entity.User: select user0_.id as id1_0_0_, user0_.name as name2_0_0_, user0_.password as password3_0_0_ from user user0_ where user0_.id=?
+Static select for action ACTION_REFRESH on entity entity.User: select user0_.id as id1_0_0_, user0_.name as name2_0_0_, user0_.password as password3_0_0_ from user user0_ where user0_.id=?
+Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@6a6afff2
+Initializing service [role=org.hibernate.service.jndi.spi.JndiService]
+Registering SessionFactory: 2a98aa07-9098-4f37-9e67-2cba129a6b96 (<unnamed>)
+Not binding SessionFactory to JNDI, no JNDI name configured
+Instantiated session factory
+Checking 0 named HQL queries
+Checking 0 named SQL queries
+Initializing service [role=org.hibernate.service.config.spi.ConfigurationService]
+Initializing service [role=org.hibernate.stat.spi.StatisticsImplementor]
+Statistics initialized [enabled=false]
+Opened session at timestamp: 14563557746
+Unable to locate HQL query plan in cache; generating (FROM User)
+parse() - HQL: FROM entity.User
+--- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       \-[FROM] Node: 'FROM'
+          \-[RANGE] Node: 'RANGE'
+             \-[DOT] Node: '.'
+                +-[IDENT] Node: 'entity'
+                \-[IDENT] Node: 'User'
+
+throwQueryException() : no errors
+select << begin [level=1, statement=select]
+FromClause{level=1} : entity.User (<no alias>) -> user0_
+select : finishing up [level=1, statement=select]
+processQuery() :  ( SELECT ( FromClause{level=1} user user0_ ) )
+Derived SELECT clause created.
+Using FROM fragment [user user0_]
+select >> end [level=1, statement=select]
+--- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (user)
+    +-[SELECT_CLAUSE] SelectClause: '{derived select clause}'
+    |  +-[SELECT_EXPR] SelectExpressionImpl: 'user0_.id as id1_0_' {FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=user,tableAlias=user0_,origin=null,columns={,className=entity.User}}}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.name as name2_0_, user0_.password as password3_0_'
+    \-[FROM] FromClause: 'FROM' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'user user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=null,role=null,tableName=user,tableAlias=user0_,origin=null,columns={,className=entity.User}}
+
+throwQueryException() : no errors
+HQL: FROM entity.User
+SQL: select user0_.id as id1_0_, user0_.name as name2_0_, user0_.password as password3_0_ from user user0_
+throwQueryException() : no errors
+HQL param location recognition took 6 mills (FROM User)
+Located HQL query plan in cache (FROM User)
+Find: FROM User
+Named parameters: {}
+select user0_.id as id1_0_, user0_.name as name2_0_, user0_.password as password3_0_ from user user0_
+Obtaining JDBC connection
+Total checked-out connections: 0
+Using pooled JDBC connection, pool size: 0
+Obtained JDBC connection
+Registering statement [com.mysql.jdbc.JDBC4PreparedStatement@14028087: select user0_.id as id1_0_, user0_.name as name2_0_, user0_.password as password3_0_ from user user0_]
+Registering last query statement [com.mysql.jdbc.JDBC4PreparedStatement@14028087: select user0_.id as id1_0_, user0_.name as name2_0_, user0_.password as password3_0_ from user user0_]
+Bound [1] parameters total
+Registering result set [com.mysql.jdbc.JDBC4ResultSet@7e057f43]
+Processing result set
+Result set row: 0
+Found [1] as column [id1_0_]
+Result row: EntityKey[entity.User#1]
+Initializing object from ResultSet: [entity.User#1]
+Hydrating entity: [entity.User#1]
+Found [rany] as column [name2_0_]
+Found [Q1w2e3r4] as column [password3_0_]
+Result set row: 1
+Found [2] as column [id1_0_]
+Result row: EntityKey[entity.User#2]
+Initializing object from ResultSet: [entity.User#2]
+Hydrating entity: [entity.User#2]
+Found [ranyyy] as column [name2_0_]
+Found [Q1w2e3r4] as column [password3_0_]
+Result set row: 2
+Found [3] as column [id1_0_]
+Result row: EntityKey[entity.User#3]
+Initializing object from ResultSet: [entity.User#3]
+Hydrating entity: [entity.User#3]
+Found [ran] as column [name2_0_]
+Found [q1w2e3r4] as column [password3_0_]
+Done processing result set (3 rows)
+Total objects hydrated: 3
+Resolving associations for [entity.User#1]
+Initializing service [role=org.hibernate.event.service.spi.EventListenerRegistry]
+Done materializing entity [entity.User#1]
+Resolving associations for [entity.User#2]
+Done materializing entity [entity.User#2]
+Resolving associations for [entity.User#3]
+Done materializing entity [entity.User#3]
+Releasing statement [com.mysql.jdbc.JDBC4PreparedStatement@14028087: select user0_.id as id1_0_, user0_.name as name2_0_, user0_.password as password3_0_ from user user0_]
+Closing result set [com.mysql.jdbc.JDBC4ResultSet@7e057f43]
+Closing prepared statement [com.mysql.jdbc.JDBC4PreparedStatement@14028087: select user0_.id as id1_0_, user0_.name as name2_0_, user0_.password as password3_0_ from user user0_]
+Starting after statement execution processing [ON_CLOSE]
+Initializing non-lazy collections
+begin
+initial autocommit status: false
+committing
+Automatically flushing session
+Flushing session
+Processing flush-time cascades
+Dirty checking collections
+Flushing entities and processing referenced collections
+Processing unreferenced collections
+Scheduling collection removes/(re)creates/updates
+Flushed: 0 insertions, 0 updates, 0 deletions to 3 objects
+Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+Listing entities:
+entity.User{password=Q1w2e3r4, name=ranyyy, id=2}
+entity.User{password=Q1w2e3r4, name=rany, id=1}
+entity.User{password=q1w2e3r4, name=ran, id=3}
+Executing flush
+Starting after statement execution processing [ON_CLOSE]
+Post flush
+before transaction completion
+committed JDBC Connection
+after transaction completion
+after transaction completion
+Rows found: 3
+Closing session
+Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@21be3395]
+Closing logical connection
+Releasing JDBC connection
+Returning connection to pool, pool size: 1
+Released JDBC connection
+Logical connection closed
+3
+Rows found: 3
+3
+QueryImpl(FROM User WHERE id = 1)
+User{id=1, name= rany, password=Q1w2e3r4}
+
+User{id=1, name= rany, password=Q1w2e3r4}
+rany
+rany
+rany
+rany
+Rows updated: 1
+Rows found: 3
+[User{id=1, name= rany, password=Q1w2e3r4}, User{id=2, name= rannn, password=Q1w2e3r4}, User{id=3, name= ran, password=q1w2e3r4}]
+user
+Rows updated: 1
+Rows found: 3
+[User{id=1, name= rany, password=Q1w2e3r4}, User{id=2, name= rannn, password=Q1w2e3r4}, User{id=3, name= ran, password=q1w2e3r4}]
+user
+Added user: User{id=4, name= Units, password=supersecret} with id of: 4
+Added user: User{id=5, name= Units, password=supersecret} with id of: 5
+Rows deleted: 2
+Added user: User{id=1, name= ran, password=q1w2e3r4} with id of: 1
+Added user: User{id=2, name= Units, password=supersecret} with id of: 2
+Rows deleted: 1
+Added user: User{id=4, name= rann, password=qqqqqqqq} with id of: 4
+Added user: User{id=5, name= rannn, password=qqqqqqqq} with id of: 5
+Rows updated: 1
+Rows deleted: 0
+Rows deleted: 1
+Rows deleted: 1
+Added user: User{id=6, name= Units, password=supersecret} with id of: 6
+Rows deleted: 1
+Added user: User{id=7, name= hey, password=now} with id of: 7
+Rows deleted: 1
+Added user: hey with id of: 8
+Rows deleted: 1
+Added user: rannn with id of: 9
+Rows updated: 1
+Rows deleted: 1
+Rows found: 1
+1
+Rows found: 1
+Rows found: 1
+Added user: hey with id of: 10
+Rows deleted: 1
+Added user: hey with id of: 11
+Rows deleted: 1
