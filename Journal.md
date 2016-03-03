@@ -26,4 +26,4 @@ Tasks completed:
 
  * Activity 1-3
  
-I still trying to get the hang of using repositories.  I am falling a little behind, but, I plan on getting everything caught this week.
+I still trying to get the hang of using repositories.  I am falling a little behind, but, I plan on getting everything caught this week..
