@@ -15,7 +15,7 @@
 - [ ] Complete database design
 - [ ] Begin creating JSPs
 - [ ] Weekly journal entry
-- [ ] Complete project plan. Based on the design should be able to lay out more detail
+- [x] Complete project plan. Based on the design should be able to lay out more detail
 
 ### Week 3
 - [ ] Complete JSPs
@@ -23,48 +23,57 @@
 - [ ] Weekly journal entry
 - [ ] Determine independent research topic
 - [ ] Create class diagram
-- [ ] Set up logging
-- [ ] Set up unit testing
+- [x] Set up logging
+- [x] Set up unit testing
 
 ### Week 4
-- [ ] Add Hibernate config
-- [ ] Create DAOs
-- [ ] Add unit tests for DAOs
+- [x] Add Hibernate config
+- [x] Create DAOs
+- [x] Add unit tests for DAOs
 - [ ] Weekly journal entry
-- [ ] Code review
+- [x] Code review
 
 ### Week 5
 
 - [ ] Weekly journal entry
-- [ ] Add user login
-- [ ] Add user registration
+- [x] Add user login
+- [] Add user registration
 
 ### Week 6
 - [ ] Weekly journal entry
-- [ ] Integration with google maps api
-
+ 
 ### Week 7
 - [ ] Weekly journal entry
-- [ ] Integration with weather service
 
 ### Week 8
 - [ ] Weekly journal entry
+- [ ] Create jsp for login page
+- [ ] Create DAOs for book information
+- [ ] Create database on Openshift
+- [ ] Make sure web service is properly recieve by program
 - [ ] Code review
 
 ### Week 9
 - [ ] Weekly journal entry
+- [ ] Create jsp for main page
 
 ### Week 10
 - [ ] Weekly journal entry
+- [ ] Create ability for user to add to database
+- [ ] Write unit test for add functionality
 
 ### Week 11
 - [ ] Weekly journal entry
+- [ ] Create ability for user to search database
+- [ ] Write unit test for search functionality
 
 ### Week 12
 - [ ] Weekly journal entry
-
+- [ ] Create ability for users to message each other
+- [ ] Write test for message functionality
 ### Week 13
 - [ ] Weekly journal entry
+- [ ] Find any bugs and fix them
 
 ### Week 14
 - [ ] Weekly journal entry
