@@ -109,16 +109,16 @@ public class UserDaoWithHibernate implements UserDao {
     @Override
     public int addUser(User user) {
 
-        log.trace("addUser()");
+        log.fatal("addUser()");
 
         session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
         int userAdd = 0;
         try {
             tx = session.beginTransaction();
-            userAdd = (int) session.save(user);
+            userAdd = (Integer) session.save(user);
             tx.commit();
-            log.fatal("Added user: " + user.getName() + " with id of: " + user.getId());
+            log.fatal("Added user: " + user + " with id of: " + user.getId());
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();
             log.error(e);

@@ -10,7 +10,7 @@
 <head>
     <title>Uh-Oh</title>
 </head>
-<>
+<body>
   Invalid userid/password combination. <br />
   <a href="login.jsp">Try again</a>
 </body>

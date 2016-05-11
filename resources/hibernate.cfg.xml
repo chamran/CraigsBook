@@ -21,6 +21,10 @@
         </property>
         <mapping resource="User.hbm.xml" />
         <mapping class="entity.User" />
+        <mapping resource="Role.hbm.xml" />
+        <mapping class="entity.Role" />
+        <mapping resource="Listing.hbm.xml" />
+        <mapping class="entity.Listing" />
     </session-factory>
 
 </hibernate-configuration>

@@ -1,0 +1,59 @@
+package entity;
+
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.client.Invocation;
+import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+//import org.json.*;
+
+/**
+ * Created by Student on 4/26/2016.
+ */
+public class Book {
+
+    public Object consume() {
+
+        ClientBuilder clientBuilder = ClientBuilder.newBuilder();
+        Client client = clientBuilder.build();
+        Object response = null;
+
+        try {
+            response = client.target("http://isbndb.com/")
+                    .path("api/v2/json/0UV2GYEM/book/084930315X")
+                    .request()
+                    .getClass();
+        } catch (Exception e) {
+            response = "[Error]:" + e.toString();
+        } finally {
+            client.close();
+        }
+        Customer customer = client.target("http://commerce.com/customers/123")
+                .accept("application/json")
+                .get(Customer.class);
+        //WebTarget target = client.target("http://isbndb.com/api/v2/json/0UV2GYEM/book/084930315X");
+
+
+        //Invocation.Builder invocationBuilder = target.request(MediaType.APPLICATION_JSON);
+        //String response = target.request("application/jsonrequest");
+        // .get(String.class);
+
+        //return response;
+        // ClientConfig config = new DefaultClientConfig();
+        // Client client = Client.create(config);
+        //client.addFilter(new LoggingFilter());
+        //WebResource service = client.resource(getBaseURI());
+        // JSONObject inputJsonObj = new JSONObject();
+        // inputJsonObj.put("input", "Value");
+        //System.out.println(service.path("rest").path("hello").accept(MediaType.APPLICATION_JSON).post(JSONObject.class, inputJsonObj))
+        //Response response = request.get(); // REST call
+        //JsonReader jsonReader = Json.createReader(new StringReader(response.readEntity(String.class)));
+        //JsonArray jsonArray = jsonReader.readArray();
+        //ListIterator l = jsonArray.listIterator();
+        //while ( l.hasNext() ) {
+        //JsonObject j = (JsonObject)l.next();
+        //JsonObject ciAttr = j.getJsonObject("ciAttributes") ;
+        return response;
+    }
+}
