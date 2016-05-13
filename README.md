@@ -6,30 +6,32 @@ School text books is an expensive part of being a student. Everybody loves to sa
 
 Screenshots from CraigsBook.com:
 
-![Trail Description](DesignDocuments\wireframes/activitypage.png)
+![Messaging service](images/messaging.png)
 
-![Trail Report](DesignDocuments\wireframes/homepage.png)
+![Post your book](images/AddListing.png)
+
+![Search for other people's books](images/search.png)
 
 
 ### Project Technologies/Techniques 
 
 * Security/Authentication
-  * Admin role: create/read/update/delete (crud) of all data
   * User role: submit textbooks for sale
   * All: anyone can view textbooks for sale (no login)
 * Database (MySQL and Hibernate)
   * Store users and roles
   * Store textbook information
 * Web Services or APIs
+  * isbnDB.com to have uniformity for book listing information
 * Bootstrap
 * Logging
-  * Configurable logging using Log4J. In production, only errors will normally be logged, but logging at a debug level can be turned on to facilitate trouble-shooting. 
+  * log4j makes it easy to debug
 * Site and database hosted on OpenShift
 * Jenkins for Continuous Integration
 * Unit Testing
-  * JUnit tests to achieve 80% code coverage
+  * JUnit tests
 * Independent Research Topic
-  * TBD
+  * Bootstrap
 
 ### Design
 
