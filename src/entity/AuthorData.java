@@ -3,6 +3,9 @@ package entity;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+/**
+ * The type Author data.
+ */
 @JsonIgnoreProperties({"id"})
 public class AuthorData {
 
@@ -10,9 +13,9 @@ public class AuthorData {
     private String name;
 
     /**
+     * Gets name.
      *
-     * @return
-     * The name
+     * @return The name
      */
     @JsonProperty("name")
     public String getName() {
@@ -20,9 +23,9 @@ public class AuthorData {
     }
 
     /**
+     * Sets name.
      *
-     * @param name
-     * The name
+     * @param name The name
      */
     @JsonProperty("name")
     public void setName(String name) {

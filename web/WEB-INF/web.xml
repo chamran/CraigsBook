@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app>
     <security-constraint>
-
         <web-resource-collection>
             <web-resource-name>administrator</web-resource-name>
-            <url-pattern>/index.jsp</url-pattern>
-
-            <url-pattern>/admin.jsp</url-pattern>
-
+            <web-resource-name>user</web-resource-name>
+            <url-pattern>/getContact</url-pattern>
+            <url-pattern>/getMyListing</url-pattern>
+            <url-pattern>/searchListings.jsp</url-pattern>
             <url-pattern>/login.jsp</url-pattern>
         </web-resource-collection>
         <auth-constraint>
-            <role-name>registered-user</role-name>
+            <role-name>user</role-name>
             <role-name>administrator</role-name>
         </auth-constraint>
     </security-constraint>

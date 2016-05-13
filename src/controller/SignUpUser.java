@@ -1,10 +1,5 @@
 package controller;
 
-/**
- * Created by Student on 5/3/2016.
- */
-
-
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -16,7 +11,9 @@ import persistence.*;
 import org.apache.log4j.Logger;
 
 
-
+/**
+ * The type Sign up user.
+ */
 @WebServlet(name = "SignUpUser", urlPatterns = { "/signUpUser" } )
 
 
@@ -28,7 +25,7 @@ public class SignUpUser extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         User user = new User(req.getParameter("name"), req.getParameter("password"));
         log.debug("Adding User: " + user);
-        UserDao dao = new UserDaoWithHibernate();
+        UserDao dao = new UserDao();
         dao.addUser(user);
     }
 }

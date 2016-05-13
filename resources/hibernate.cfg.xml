@@ -14,10 +14,10 @@
             com.mysql.jdbc.Driver
         </property>
         <property name="connection.username">
-            student
+            root
         </property>
         <property name="connection.password">
-            student
+            q1w2e3r4
         </property>
         <mapping resource="User.hbm.xml" />
         <mapping class="entity.User" />
@@ -25,6 +25,10 @@
         <mapping class="entity.Role" />
         <mapping resource="Listing.hbm.xml" />
         <mapping class="entity.Listing" />
+        <mapping resource="Contact.hbm.xml" />
+        <mapping class="entity.Contact" />
+        <mapping resource="Message.hbm.xml" />
+        <mapping class="entity.Message" />
     </session-factory>
 
 </hibernate-configuration>

@@ -1,25 +1,50 @@
-#message {
-    background-color: #f1f1f1;
-    border: solid;
-    height: 100vh;
-}
 
-#searchListing {
 
-    background-color: #f1f1f1;
-    border: solid;
-    height:  50vh;
+body {
+    background-color:  #f1f1f1;
 
 }
-
-#yourListing {
-
-    background-color: #f1f1f1;
-    border: solid;
-    height:  50vh;
-
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
 }
+
+
+.row.content {height:auto;}
+
 
 .container-heading, .form-inline {
     text-align: center;
+}
+
+.asText {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+}
+
+td {
+    text-align: left;
+    background: pink;
+}
+
+.table-condensed>thead>tr>th, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td,
+.table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td {
+    padding: 1px;
+}
+
+.textAlignRight {
+    text-align: right;
+}
+form {
+    margin: 0px;
+    padding: 0px;
+}
+input {
+    margin: 0px;
+    padding: 0px;
+}
+input.hidden {
+    display: none;
 }

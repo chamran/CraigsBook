@@ -8,14 +8,17 @@
         <meta attribute="class-description">
             This class contains book detail.
         </meta>
-        <id name="getListingId" type="int" column="bookId">
+        <id name="listingId" type="int" column="listingId">
             <generator class="native"/>
         </id>
-        <property name="instructor" column="instructor" type="string"/>
+        <property name="instructorFirstName" column="instructorFirstName" type="string"/>
+        <property name="instructorLastName" column="instructorLastName" type="string"/>
         <property name="course" column="course" type="string"/>
         <property name="bookTitle" column="bookTitle" type="string"/>
         <property name="bookAuthor" column="bookAuthor" type="string"/>
-        <property name="isbn" column="isbn" type="int"/>
+        <property name="isbn" column="isbn" type="string"/>
         <property name="userName" column="userName" type="string"/>
+        <property name="price" column="price" type="string"/>
+
     </class>
 </hibernate-mapping>

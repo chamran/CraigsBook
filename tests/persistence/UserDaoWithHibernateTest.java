@@ -10,13 +10,13 @@ import static org.junit.Assert.*;
  */
 public class UserDaoWithHibernateTest {
     List<User> list;
-    UserDaoWithHibernate dao;
+    UserDao dao;
     User user;
 
 
     @Test
     public void testGetAllUsers() throws Exception {
-        dao = new UserDaoWithHibernate();
+        dao = new UserDao();
         list = dao.getAllUsers();
 
         assertTrue(list.size() > 0);
@@ -25,7 +25,7 @@ public class UserDaoWithHibernateTest {
     @Test
     public void testUpdateUser() throws Exception {
         user = new User("rannn", "qqqqqqqq");
-        dao = new UserDaoWithHibernate();
+        dao = new UserDao();
         dao.addUser(user);
         user.setPassword("Q1w2e3r4");
         dao.updateUser(user);
@@ -36,7 +36,7 @@ public class UserDaoWithHibernateTest {
 
     @Test
     public void testSelectUser() throws Exception {
-        dao = new UserDaoWithHibernate();
+        dao = new UserDao();
         user = dao.selectUser("ran");
 
         assertEquals("ran", user.getName());
@@ -45,7 +45,7 @@ public class UserDaoWithHibernateTest {
 
     @Test
     public void testDeleteUser() throws Exception {
-        dao = new UserDaoWithHibernate();
+        dao = new UserDao();
         user = new User("Units", "supersecret");
 
         dao.addUser(user);
@@ -56,7 +56,7 @@ public class UserDaoWithHibernateTest {
 
     @Test
     public void testAddUser() throws Exception {
-        dao = new UserDaoWithHibernate();
+        dao = new UserDao();
         int insertedUserId;
         //create user to add
         user = new User("hey", "now");

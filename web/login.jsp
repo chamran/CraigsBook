@@ -1,31 +1,30 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: paulawaite
-  Date: 9/20/15
-  Time: 9:04 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <!DOCTYPE html>
+
 <html>
 
-    <c:import url="head.jsp"/>
+<c:import url="head.jsp"/>
 
-    <body>
-    <FORM ACTION="j_security_check" METHOD="POST">
-        <TABLE>
-            <TR><TD>User name:
-                <INPUT TYPE="TEXT" NAME="j_username">
-            <TR><TD>Password:
-                <INPUT TYPE="PASSWORD" NAME="j_password">
-            <TR><TH><INPUT TYPE="SUBMIT" VALUE="Log In">
-        </TABLE>
-    </FORM>
+<body>
+
+<c:import url="navbar.jsp"/>
+
+<div class="container-fluid">
+
+    <div class="row">
+
+        <c:import url="login-import.jsp"/>
 
 
-    </body>
+    </div>
+
+</div>
+
+</body>
+
 </html>
+
 
 

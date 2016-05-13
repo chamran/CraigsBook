@@ -9,23 +9,38 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.criterion.Restrictions;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by user on 5/7/2016.
  */
 public class MessageDao {
-    Session session;
+
     private final Logger log = Logger.getLogger(this.getClass());
 
-    List<Message> messages;
-    Message message;
 
-    public List<Message> getAllMessagesById(int listingId) {
+
+    public List<Message> getMessagesByContactId(String contactId) {
+        log.info(contactId.getClass());
+        List<Message> messages = new ArrayList<>();
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
-        Criteria criteria = session.createCriteria(Message.class);
-        criteria.add(Restrictions.eq("listingId", listingId));
-        List messages = criteria.list();
+        Transaction tx = null;
+
+        try {
+            tx = session.beginTransaction();
+            Criteria criteria = session.createCriteria(Message.class);
+
+            criteria.add(Restrictions.eq("contactId", contactId));
+            messages = criteria.list();
+            tx.commit();
+        }catch (HibernateException e) {
+            if (tx!=null) tx.rollback();
+            e.printStackTrace();
+        }finally {
+            session.close();
+        }
+
         return messages;
     }
 

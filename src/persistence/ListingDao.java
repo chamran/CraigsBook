@@ -24,7 +24,7 @@ public class ListingDao {
         List<Listing> listings = new ArrayList<Listing>();
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
-
+        log.info(category+restrict);
         try{
             tx = session.beginTransaction();
             Criteria cr = session.createCriteria(Listing.class);
@@ -43,34 +43,32 @@ public class ListingDao {
         return listings;
     }
 
-    public void deleteListing(Listing listing) {
-
+    public void deleteListingById(String listingId){
         Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
-
-        try {
+        try{
             tx = session.beginTransaction();
+            Listing listing =
+                    (Listing)session.get(Listing.class, Integer.parseInt(listingId));
             session.delete(listing);
             tx.commit();
-        } catch (HibernateException e) {
+        }catch (HibernateException e) {
             if (tx!=null) tx.rollback();
-            log.error(e);
-        } finally {
+            e.printStackTrace();
+        }finally {
             session.close();
         }
     }
 
-    public int addListing(Listing listing) {
-        log.info("addListing()");
+    public Object addListing(Listing listing) {
 
-        session = SessionFactoryProvider.getSessionFactory().openSession();
+        Session session = SessionFactoryProvider.getSessionFactory().openSession();
         Transaction tx = null;
-        int userAdd = 0;
+        Integer userAdd = null;
         try {
             tx = session.beginTransaction();
-            userAdd = (Integer) session.save(listing);
+            userAdd = (Integer)session.save(listing);
             tx.commit();
-            log.info("Added book: " + listing.getBookTitle() + " with id of: " + listing.getListingId());
         } catch (HibernateException e) {
             if (tx!=null) tx.rollback();
             log.error(e);
